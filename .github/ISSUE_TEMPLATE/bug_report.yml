@@ -1,0 +1,69 @@
+name: Báo lỗi tiện ích UTT
+description: Gửi lỗi cài đặt, lấy danh sách, chọn môn hoặc phát video.
+title: "[Lỗi] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cảm ơn bạn đã báo lỗi! Hãy che thông tin cá nhân trong ảnh. Không gửi mật khẩu, cookie, mã đăng nhập hoặc file xuất tiến độ chưa kiểm tra.
+  - type: input
+    id: extension-version
+    attributes:
+      label: Phiên bản tiện ích
+      description: Xem dòng đầu bảng Danh sách học hoặc thẻ tiện ích Chrome.
+      placeholder: "Ví dụ: 1.2.2"
+    validations:
+      required: true
+  - type: input
+    id: browser-version
+    attributes:
+      label: Phiên bản Chrome và hệ điều hành
+      placeholder: "Ví dụ: Chrome …, Windows 11"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: Lỗi ở bước nào?
+      options:
+        - Cài đặt hoặc cập nhật
+        - Lấy danh sách môn / thanh tiến độ
+        - Chọn môn hoặc video
+        - Mở / phát video
+        - Tải lại hoặc chuyển môn
+        - Xác nhận học tập
+        - Khác
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Các bước gây lỗi
+      placeholder: |
+        1. Mở trang …
+        2. Bấm …
+        3. Trang / tiện ích …
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Kết quả thực tế và thông báo lỗi
+      description: Có thể dán ảnh đã che thông tin cá nhân vào đây.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Bạn mong đợi điều gì?
+    validations:
+      required: true
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: Đã kiểm tra
+      options:
+        - label: Tôi đã tải lại tiện ích và trang UTT sau khi cập nhật.
+        - label: Tôi chỉ chạy một tab UTT.
+        - label: Nội dung báo lỗi không chứa mật khẩu, cookie hoặc mã đăng nhập.
+          required: true

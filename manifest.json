@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "UTT • Danh sách học",
+  "version": "1.2.2",
+  "description": "Chọn video, phát lần lượt và theo dõi tiến độ đã ghi nhận trên hệ thống học UTT.",
+  "minimum_chrome_version": "111",
+  "permissions": ["storage", "notifications"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Mở danh sách học UTT", "default_icon": "icon.png" },
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    { "matches": ["https://hoctructuyen.utt.edu.vn/*"], "js": ["core.js", "bridge.js"], "world": "MAIN", "run_at": "document_start" },
+    { "matches": ["https://hoctructuyen.utt.edu.vn/*"], "js": ["core.js", "adapter.js", "content.js"], "run_at": "document_idle" }
+  ]
+}

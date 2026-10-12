@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Hỗ trợ qua Zalo
+    url: https://zaloapp.com/qr/p/agljm1wpfuq9?src=qr
+    about: Liên hệ tác giả để hỏi cách cài đặt hoặc trao đổi lỗi.
+  - name: Hướng dẫn cài đặt chi tiết
+    url: https://github.com/nguyen-hau204/utt-study-queue/blob/main/docs/CAI-DAT.md
+    about: Đọc hướng dẫn tải, giải nén, cập nhật và sử dụng trước khi báo lỗi cài đặt.

@@ -1,0 +1,16 @@
+{
+  "name": "utt-study-queue",
+  "version": "1.2.2",
+  "private": true,
+  "description": "Kiểm thử UTT · Danh sách học",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "test": "node --test tests/extension.test.cjs tests/background.test.cjs"
+  },
+  "devDependencies": {
+    "@sinonjs/fake-timers": "15.4.0",
+    "jsdom": "29.1.1"
+  }
+}
