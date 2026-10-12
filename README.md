@@ -2,7 +2,7 @@
 
 Tiện ích Chrome giúp theo dõi video còn thiếu tiến độ trên [hệ thống E-learning UTT](https://hoctructuyen.utt.edu.vn/), chọn bài cần xem và phát lần lượt qua các môn.
 
-**[⬇ Tải bản 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/releases/download/v1.2.2/utt-study-queue-v1.2.2.zip)** · **[Hướng dẫn cài đặt](docs/CAI-DAT.md)** · **[Báo lỗi](https://github.com/nguyen-hau204/utt-study-queue/issues/new/choose)** · **[Hỗ trợ Zalo](https://zaloapp.com/qr/p/agljm1wpfuq9?src=qr)**
+**[⬇ Tải bản 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/raw/refs/heads/main/downloads/utt-study-queue-v1.2.2.zip)** · **[Hướng dẫn cài đặt](docs/CAI-DAT.md)** · **[Báo lỗi](https://github.com/nguyen-hau204/utt-study-queue/issues/new/choose)** · **[Hỗ trợ Zalo](https://zaloapp.com/qr/p/agljm1wpfuq9?src=qr)**
 
 ## Tiện ích làm được gì?
 
@@ -18,7 +18,7 @@ Tiện ích phát video ở **1×**. Trạng thái đạt yêu cầu lấy từ 
 
 ## Cài nhanh trên Chrome
 
-1. [Tải file ZIP 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/releases/download/v1.2.2/utt-study-queue-v1.2.2.zip), giải nén vào một thư mục cố định, ví dụ `Documents\UTT-Study-Queue`.
+1. [Tải file ZIP 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/raw/refs/heads/main/downloads/utt-study-queue-v1.2.2.zip), giải nén vào một thư mục cố định, ví dụ `Documents\UTT-Study-Queue`.
 2. Mở thư mục đó và kiểm tra có file `manifest.json` cùng `core.js`, `adapter.js`, `content.js`, `bridge.js`, `background.js`, `icon.png`.
 3. Mở Chrome, nhập `chrome://extensions` vào thanh địa chỉ rồi nhấn Enter.
 4. Bật **Chế độ dành cho nhà phát triển / Developer mode**.

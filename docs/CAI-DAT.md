@@ -1,6 +1,6 @@
 # Cài đặt và sử dụng UTT · Danh sách học
 
-[← Về trang dự án](../README.md) · [Tải ZIP 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/releases/download/v1.2.2/utt-study-queue-v1.2.2.zip) · [Báo lỗi](https://github.com/nguyen-hau204/utt-study-queue/issues/new/choose)
+[← Về trang dự án](../README.md) · [Tải ZIP 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/raw/refs/heads/main/downloads/utt-study-queue-v1.2.2.zip) · [Báo lỗi](https://github.com/nguyen-hau204/utt-study-queue/issues/new/choose)
 
 ## 1. Chuẩn bị
 
@@ -13,7 +13,7 @@ Không cần cài Node.js, Python hoặc phần mềm lập trình để sử d�
 ## 2. Tải và giải nén
 
 1. Vào [bản phát hành 1.2.2](https://github.com/nguyen-hau204/utt-study-queue/releases/tag/v1.2.2).
-2. Trong **Assets**, tải **`utt-study-queue-v1.2.2.zip`**. Đây là gói tiện ích gọn, dễ cài.
+2. Bấm liên kết **Tải ZIP 1.2.2** ở đầu trang này hoặc trong ghi chú bản phát hành để tải **`utt-study-queue-v1.2.2.zip`**. Đây là gói tiện ích gọn, dễ cài.
 3. Trên Windows, nhấp chuột phải file ZIP → **Extract All / Giải nén tất cả**. Chọn thư mục cố định rồi bấm **Extract / Giải nén**.
 4. Mở thư mục đã giải nén. Bạn phải thấy những file sau:
 
